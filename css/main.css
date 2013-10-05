@@ -61,7 +61,13 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: .9em;
 }
 
 .wrapper {
@@ -90,6 +96,7 @@ body {
 
 .title {
     color: white;
+    font-weight: 300;
 }
 
 /* ==============
