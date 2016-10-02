@@ -11,7 +11,7 @@ textarea {
 }
 
 body {
-    background: #fff;
+    background: #f5f5dc;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -102,7 +102,7 @@ p {
 
 .footer-container,
 .main aside {
-    border-top: 20px solid rgb(255, 85, 66);
+    border-top: 10px solid rgb(255, 85, 66);
 }
 
 .header-container,
@@ -110,14 +110,21 @@ p {
     background: #fff;
 }
 
+.no-bullets {
+  list-style-type: hiragana;
+}
+
 .main aside {
-    background: rgb(255, 85, 66);
-    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.76);
 }
 
 .title {
     color: rgb(255, 85, 66);
     font-weight: 300;
+}
+
+.japanese {
+  font-family: "Hiragino Kaku Gothic Pro";
 }
 
 /* ==============
@@ -164,7 +171,7 @@ nav a:hover {
 }
 
 .main aside {
-    color: white;
+    color: black;
     padding: 0px 5% 10px;
 }
 
