@@ -46,8 +46,7 @@ a {
 }
 
 a:hover {
-   color: rgb(255, 85, 66);
-   text-style: italic;
+   font-style: italic;
 }
 
 /* ===== Initializr Styles ==================================================
